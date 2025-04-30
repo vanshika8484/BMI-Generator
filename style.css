@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: gray;
+}
+
+.default{
+    /* background-color: aqua; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:2rem;
+    font-size:1.5rem;
+}
+
+#user{
+   padding: 1.2rem;
+   margin:1.2rem;
+   font-size: 2rem;
+    /* background-color: blue; */
+    
+}
+#button{
+    padding: 6px;
+    margin:2px;
+    border: 2px solid black;
+    font-size: 1.25rem;
+}
+input{
+    height: 1.5rem;
+}
+.result{
+    font-size: 2rem;
+    color: aliceblue;
+}
